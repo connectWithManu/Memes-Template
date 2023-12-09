@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MemeAppRetrofitMVVM" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/c10</item>
+    </style>
+
+    <style name="Theme.MemeAppRetrofitMVVM" parent="Base.Theme.MemeAppRetrofitMVVM" />
+</resources>
