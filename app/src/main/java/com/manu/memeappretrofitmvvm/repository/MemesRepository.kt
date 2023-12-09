@@ -23,6 +23,9 @@ class MemesRepository(
             val result = memesAPI.getMemes()
             if(result.body() != null) {
 
+
+
+
                 memesDatabase.memesDao().insertMeme(result.body()!!.data.memes)
                 _memes.postValue(result.body())
             } else {
